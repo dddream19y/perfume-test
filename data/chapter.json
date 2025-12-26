@@ -1,0 +1,314 @@
+[
+  {
+    "chapter_id": "A",
+    "title": "序章：調香師初醒",
+    "context": "清晨的工作室，陽光穿過玻璃，瓶蓋上還有夜晚留下的香氣薄霧。今天是新品發表前的最後一日，你整理筆記、回想靈感、調整配方，準備迎接一整天的試香與交流。",
+    "spice_options": [
+      {"code":"bergamot","label":"佛手柑","desc":"清新、明亮"},
+      {"code":"lemon","label":"檸檬","desc":"清爽、提神"},
+      {"code":"orange","label":"甜橙","desc":"愉悅、甜美"},
+      {"code":"grapefruit","label":"葡萄柚","desc":"微苦、鮮亮"},
+      {"code":"lavender","label":"薰衣草","desc":"平和、療癒"},
+      {"code":"jasmine","label":"茉莉","desc":"清甜、優雅"},
+      {"code":"rose","label":"玫瑰","desc":"經典、花香"},
+      {"code":"ylang","label":"依蘭","desc":"濃郁、熱情"},
+      {"code":"pepper","label":"黑胡椒","desc":"辛辣、活力"},
+      {"code":"ginger","label":"薑","desc":"辛暖、刺激"},
+      {"code":"mint","label":"薄荷","desc":"清涼、醒腦"},
+      {"code":"basil","label":"羅勒","desc":"草本、清新"},
+      {"code":"note_extra","label":"特殊原料：龍涎（示例）","desc":"稀有、神祕"}
+    ],
+    "items": [
+      {"id":1,"trait":"Extraversion","keyed":"plus","facet":"gregariousness","question_orig":"我在社交場合容易主動與人打招呼。","question_theme":"你在工作室門口碰見早來的來賓，你會走上前向他們簡短自我介紹並聊起你正在試的香氣嗎？","note":"測量社交主動性"},
+      {"id":2,"trait":"Openness","keyed":"plus","facet":"curiosity","question_orig":"我喜歡探索不尋常的想法或文化。","question_theme":"看到桌上一罐少見的天然萃取，你是否會立刻被吸引，想了解它的來源與故事？","note":"測量好奇與探索"},
+      {"id":3,"trait":"Conscientiousness","keyed":"plus","facet":"planfulness","question_orig":"我會事先計畫並分配時間完成長期目標。","question_theme":"面對今日的繁重試香行程，你會把每個時段精準排好並遵守時間表嗎？","note":"測量計畫性與守時"},
+      {"id":4,"trait":"Neuroticism","keyed":"plus","facet":"anxiety","question_orig":"我容易因小事感到煩惱或焦慮。","question_theme":"若某個樣品突然表現不如預期，你是否會為此感到惴惴不安，影響一上午的情緒？","note":"測量情緒反應敏感度"}
+    ]
+  },
+  {
+    "chapter_id": "B",
+    "title": "序章之後：品牌媒體的提問",
+    "context": "下午，媒體來到工作室做專訪。錄音與照相機在一旁，你被請問到創作靈感與未來計畫。",
+    "spice_options": [
+      {"code":"bergamot","label":"佛手柑","desc":"清新"},
+      {"code":"lemon","label":"檸檬","desc":"清爽"},
+      {"code":"grapefruit","label":"葡萄柚","desc":"微苦"},
+      {"code":"orange","label":"甜橙","desc":"愉悅"},
+      {"code":"jasmine","label":"茉莉","desc":"花甜"},
+      {"code":"rose","label":"玫瑰","desc":"花香"},
+      {"code":"ylang","label":"依蘭","desc":"濃郁"},
+      {"code":"hibiscus","label":"洛神花","desc":"酸甜"},
+      {"code":"cardamom","label":"小豆蔻","desc":"香辛"},
+      {"code":"clove","label":"丁香","desc":"溫暖辛香"},
+      {"code":"vanilla","label":"香草","desc":"甜美"},
+      {"code":"amber","label":"琥珀","desc":"暖甜"},
+      {"code":"saffron","label":"藏紅花","desc":"昂貴、神秘"}
+    ],
+    "items": [
+      {"id":5,"trait":"Extraversion","keyed":"plus","facet":"assertiveness","question_orig":"我在團體中常常會主動提出想法或帶領討論。","question_theme":"面對鏡頭問到靈感，你會主動用充滿感染力的語句闡述你的核心理念嗎？","note":"測量主導與表達"},
+      {"id":6,"trait":"Agreeableness","keyed":"plus","facet":"altruism","question_orig":"當別人需要幫忙時，我會主動伸出援手。","question_theme":"若同台的創作者在示範中出錯，你會當場主動協助修正以維護流程順利進行嗎？","note":"測量合作與利他"},
+      {"id":7,"trait":"Openness","keyed":"plus","facet":"imagination","question_orig":"我喜歡用不同角度重新檢視問題並提出新點子。","question_theme":"面對採訪者的標準問題，你是否會用一個意想不到的比喻來呈現你的香氛概念？","note":"測量創意與認知靈活性"},
+      {"id":8,"trait":"Neuroticism","keyed":"plus","facet":"self_doubt","question_orig":"我會懷疑自己做得是否夠好。","question_theme":"當採訪後收到混合回應，你是否會質疑自己的表現並反覆回想每個細節？","note":"測量自我懷疑"}
+    ]
+  },
+  {
+    "chapter_id": "C",
+    "title": "市集巡禮：尋找稀有原料",
+    "context": "週末你帶著筆記走訪古老香料市集，攤位上放著各式乾燥花與精油，店主熱情地分享來源故事。",
+    "spice_options": [
+      {"code":"bergamot","label":"佛手柑","desc":"清新"},
+      {"code":"lemon","label":"檸檬","desc":"明亮"},
+      {"code":"orange","label":"甜橙","desc":"愉悅"},
+      {"code":"bergamotorange","label":"佛手柑+甜橙","desc":"綜合前調"},
+      {"code":"lavender","label":"薰衣草","desc":"療癒"},
+      {"code":"jasmine","label":"茉莉","desc":"花甜"},
+      {"code":"rose","label":"玫瑰","desc":"花香"},
+      {"code":"ylang","label":"依蘭","desc":"濃郁"},
+      {"code":"patchouli","label":"廣藿香","desc":"土質"},
+      {"code":"vetiver","label":"岩蘭草","desc":"泥土木質"},
+      {"code":"cedar","label":"雪松","desc":"乾爽木質"},
+      {"code":"oakmoss","label":"橡苔","desc":"森林感"},
+      {"code":"saffron","label":"藏紅花","desc":"昂貴香料"}
+    ],
+    "items": [
+      {"id":9,"trait":"Openness","keyed":"plus","facet":"curiosity","question_orig":"我喜歡探索不尋常的想法或文化。","question_theme":"在市集中看到罕見香材的標示時，你是否會被其背後的故事吸引，想深入了解？","note":"測量文化與素材好奇"},
+      {"id":10,"trait":"Extraversion","keyed":"plus","facet":"friendliness","question_orig":"我容易和新認識的人建立友好關係。","question_theme":"你是否常與攤主搭話、交換來源資訊，並因此建立新的聯繫？","note":"測量建立關係的傾向"},
+      {"id":11,"trait":"Conscientiousness","keyed":"minus","facet":"forgetfulness","question_orig":"我常常忘記承諾過的小事。","question_theme":"買完原料返回工作室後，你是否經常忘記記錄購買的濃度或試驗條件？","note":"反向題，測量記憶/責任"},
+      {"id":12,"trait":"Agreeableness","keyed":"plus","facet":"cooperation","question_orig":"我願意配合團隊，為共同目標妥協。","question_theme":"若團隊偏好某種顏色或氣味而非你的首選，你是否願意為大局做出妥協？","note":"測量合作性"}
+    ]
+  },
+  {
+    "chapter_id": "D",
+    "title": "工作室夜談：與同事切磋配方",
+    "context": "夜色中工作室的燈依舊亮著，同事們圍坐討論今日試香結果，氣氛既專注又溫暖。",
+    "spice_options": [
+      {"code":"vanilla","label":"香草","desc":"甜美、溫暖"},
+      {"code":"amber","label":"琥珀","desc":"深厚"},
+      {"code":"sandalwood","label":"檀香","desc":"穩重"},
+      {"code":"cedar","label":"雪松","desc":"乾爽木質"},
+      {"code":"musk","label":"麝香","desc":"性感、柔和"},
+      {"code":"patchouli","label":"廣藿香","desc":"土質"},
+      {"code":"vetiver","label":"岩蘭草","desc":"根基感"},
+      {"code":"bergamot","label":"佛手柑","desc":"亮爽"},
+      {"code":"jasmine","label":"茉莉","desc":"花香"},
+      {"code":"rose","label":"玫瑰","desc":"古典"},
+      {"code":"ylang","label":"依蘭","desc":"香甜"},
+      {"code":"clove","label":"丁香","desc":"辛暖"},
+      {"code":"cardamom","label":"小豆蔻","desc":"香辛"}
+    ],
+    "items": [
+      {"id":13,"trait":"Conscientiousness","keyed":"plus","facet":"precision","question_orig":"我對細節很注意，不容易犯粗心錯誤。","question_theme":"在討論配方比例時，你會檢查每一毫升的差異，確保精準無誤嗎？","note":"測量細心與精確"},
+      {"id":14,"trait":"Agreeableness","keyed":"minus","facet":"assertiveness","question_orig":"我常會直言指出別人的錯誤，即使會讓氣氛尷尬。","question_theme":"當同事的建議明顯影響品質時，你會直接指出並質疑他的做法嗎？","note":"反向題，測量直接批評傾向"},
+      {"id":15,"trait":"Extraversion","keyed":"plus","facet":"enthusiasm","question_orig":"我談話時通常帶有熱情並喜歡吸引注意。","question_theme":"在討論中，你是否會以富感染力的語氣描述香氛故事，吸引注意？","note":"測量熱情表達"},
+      {"id":16,"trait":"Neuroticism","keyed":"plus","facet":"irritability","question_orig":"我有時會因小事感到煩躁或生氣。","question_theme":"當反覆試驗未達預期，你是否會感到煩躁，影響與同事互動？","note":"測量易怒與情緒波動"}
+    ]
+  },
+  {
+    "chapter_id": "E",
+    "title": "品香會：聽見他人的味覺故事",
+    "context": "你受邀參加一場小型品香會，座上來賓各自分享香水帶來的記憶與感受，場面溫婉而深刻。",
+    "spice_options": [
+      {"code":"orange","label":"甜橙","desc":"明亮"},
+      {"code":"bergamot","label":"佛手柑","desc":"清新"},
+      {"code":"jasmine","label":"茉莉","desc":"花甜"},
+      {"code":"rose","label":"玫瑰","desc":"花香"},
+      {"code":"lavender","label":"薰衣草","desc":"寧靜"},
+      {"code":"vanilla","label":"香草","desc":"溫暖"},
+      {"code":"amber","label":"琥珀","desc":"深沉"},
+      {"code":"musk","label":"麝香","desc":"圓潤"},
+      {"code":"cedar","label":"雪松","desc":"木質"},
+      {"code":"sandalwood","label":"檀香","desc":"柔和"},
+      {"code":"patchouli","label":"廣藿香","desc":"沉穩"},
+      {"code":"ylang","label":"依蘭","desc":"馥郁"},
+      {"code":"honeysuckle","label":"金銀花","desc":"清甜"}
+    ],
+    "items": [
+      {"id":17,"trait":"Agreeableness","keyed":"plus","facet":"empathy","question_orig":"我容易體會他人的情緒並設法安慰他們。","question_theme":"當一位來賓談到被香味勾起的悲傷記憶時，你會以同理心傾聽並給予溫柔回應嗎？","note":"測量同理心"},
+      {"id":18,"trait":"Openness","keyed":"plus","facet":"aesthetics","question_orig":"藝術或美感能激發我的情緒與想法。","question_theme":"在聆聽他人的回饋時，你是否經常被描述的場景與色彩激發新的靈感？","note":"測量藝術敏感度"},
+      {"id":19,"trait":"Extraversion","keyed":"minus","facet":"reserved","question_orig":"在大型活動中我傾向不出風頭。","question_theme":"在眾人面前你是否寧可保持低調，靜靜聞聞他人分享而不是主導話題？","note":"反向題：測量內向傾向"},
+      {"id":20,"trait":"Conscientiousness","keyed":"plus","facet":"thoroughness","question_orig":"我會仔細檢查直到做到最好為止。","question_theme":"在品香會後，你是否會把大家的反饋詳細記錄，當作改良配方的依據？","note":"測量徹底性"}
+    ]
+  },
+  {
+    "chapter_id": "F",
+    "title": "媒合會談：談合作與授權",
+    "context": "你與品牌代表在會議室討論合作方向，雙方要在幾分鐘內決定是否簽約或進行下一步。討論涉及創作自主與授權分潤。",
+    "spice_options": [
+      {"code":"bergamot","label":"佛手柑","desc":"清新"},
+      {"code":"lemon","label":"檸檬","desc":"鮮活"},
+      {"code":"jasmine","label":"茉莉","desc":"花香"},
+      {"code":"rose","label":"玫瑰","desc":"經典"},
+      {"code":"vanilla","label":"香草","desc":"安全感"},
+      {"code":"amber","label":"琥珀","desc":"深重"},
+      {"code":"cedar","label":"雪松","desc":"穩定"},
+      {"code":"patchouli","label":"廣藿香","desc":"沉著"},
+      {"code":"myrrh","label":"沒藥","desc":"古老"},
+      {"code":"saffron","label":"藏紅花","desc":"奢華"},
+      {"code":"cardamom","label":"小豆蔻","desc":"辛香"},
+      {"code":"clarysage","label":"鼠尾草","desc":"草本"},
+      {"code":"bergamot2","label":"特調佛手柑","desc":"複合前調"}
+    ],
+    "items": [
+      {"id":21,"trait":"Conscientiousness","keyed":"plus","facet":"reliability","question_orig":"別人可以依賴我完成分配給我的工作。","question_theme":"在合作談判中，你是否能承諾並實際執行分配給你的責任？","note":"測量可靠性"},
+      {"id":22,"trait":"Agreeableness","keyed":"plus","facet":"cooperation","question_orig":"我願意為共同目標妥協。","question_theme":"當合作條件需調整時，你是否願意放下一些原則以促成合作？","note":"測量妥協能力"},
+      {"id":23,"trait":"Neuroticism","keyed":"plus","facet":"stress","question_orig":"遇到壓力時我會感到難以應付。","question_theme":"面對決策壓力，你是否會感到緊張並懷疑自己的選擇？","note":"測量壓力應對"},
+      {"id":24,"trait":"Openness","keyed":"plus","facet":"experimentation","question_orig":"我願意嘗試把不同風格融合成新的作品。","question_theme":"在合作中，你是否願意嘗試品牌提出的跨界想法，哪怕與你的風格不同？","note":"測量實驗精神"}
+    ]
+  },
+  {
+    "chapter_id": "G",
+    "title": "設計稿回顧：視覺與香的對話",
+    "context": "設計師與你共同討論香水瓶與包裝，視覺呈現會影響消費者對香味的預期。你必須在美學與功能間協調。",
+    "spice_options": [
+      {"code":"bergamot","label":"佛手柑","desc":"亮"},
+      {"code":"orange","label":"甜橙","desc":"甜美"},
+      {"code":"rose","label":"玫瑰","desc":"優雅"},
+      {"code":"jasmine","label":"茉莉","desc":"纖細"},
+      {"code":"vanilla","label":"香草","desc":"溫暖"},
+      {"code":"sandalwood","label":"檀香","desc":"沉穩"},
+      {"code":"cedar","label":"雪松","desc":"木質"},
+      {"code":"amber","label":"琥珀","desc":"濃厚"},
+      {"code":"musk","label":"麝香","desc":"圓潤"},
+      {"code":"ylang","label":"依蘭","desc":"馥郁"},
+      {"code":"cardamom","label":"小豆蔻","desc":"辛香"},
+      {"code":"ginger","label":"薑","desc":"刺激"},
+      {"code":"patchouli","label":"廣藿香","desc":"深沈"}
+    ],
+    "items": [
+      {"id":25,"trait":"Openness","keyed":"plus","facet":"aesthetics","question_orig":"藝術或美感能激發我的情緒與想法。","question_theme":"看到設計提案的色彩與材質，你是否會立刻在腦中描繪出與之搭配的香氣？","note":"測量審美敏感"},
+      {"id":26,"trait":"Conscientiousness","keyed":"plus","facet":"diligence","question_orig":"我會持之以恆地改進直到達到滿意成果。","question_theme":"對於包裝與配方的微調，你是否願意反覆修改直到達成理想狀態？","note":"測量堅持與勤奮"},
+      {"id":27,"trait":"Extraversion","keyed":"plus","facet":"enthusiasm","question_orig":"我談話時通常帶有熱情並喜歡吸引注意。","question_theme":"在視覺說明會上，你是否會熱情地講述香氛故事以影響設計方向？","note":"測量熱情表達"},
+      {"id":28,"trait":"Agreeableness","keyed":"minus","facet":"competitive","question_orig":"我在與人合作時常更在意自己的利益。","question_theme":"在設計討論中，你是否有時會堅持自己的意見以求更大曝光或個人利益？","note":"反向題"}
+    ]
+  },
+  {
+    "chapter_id": "H",
+    "title": "消費者座談：真實回饋收集",
+    "context": "幾位真實消費者受邀來工作室試聞並給予回饋，他們的偏好與語言可能與你的預期不同。",
+    "spice_options": [
+      {"code":"bergamot","label":"佛手柑","desc":"清新"},
+      {"code":"lemon","label":"檸檬","desc":"活力"},
+      {"code":"orange","label":"甜橙","desc":"愉悅"},
+      {"code":"grapefruit","label":"葡萄柚","desc":"清苦"},
+      {"code":"jasmine","label":"茉莉","desc":"柔和"},
+      {"code":"rose","label":"玫瑰","desc":"古典"},
+      {"code":"vanilla","label":"香草","desc":"甜美"},
+      {"code":"musk","label":"麝香","desc":"圓潤"},
+      {"code":"cedar","label":"雪松","desc":"木質"},
+      {"code":"sandalwood","label":"檀香","desc":"溫暖"},
+      {"code":"patchouli","label":"廣藿香","desc":"大地感"},
+      {"code":"amber","label":"琥珀","desc":"濃郁"},
+      {"code":"honeysuckle","label":"金銀花","desc":"清甜"}
+    ],
+    "items": [
+      {"id":29,"trait":"Agreeableness","keyed":"plus","facet":"forgiveness","question_orig":"我願意原諒別人的小失誤。","question_theme":"當消費者給出誤解或不禮貌的評論時，你是否傾向以理解與溝通回應？","note":"測量寬容度"},
+      {"id":30,"trait":"Neuroticism","keyed":"plus","facet":"worry","question_orig":"我常為未來可能發生的事情感到擔心。","question_theme":"在聽到負面回饋後，你是否會擔心是否會影響品牌形象並持續焦慮？","note":"測量憂慮傾向"},
+      {"id":31,"trait":"Conscientiousness","keyed":"plus","facet":"organization","question_orig":"我會把事情排好優先順序並按部就班完成。","question_theme":"收到回饋後，你是否會彙整問題清單並依優先順序逐項改良？","note":"測量組織與執行"},
+      {"id":32,"trait":"Openness","keyed":"plus","facet":"experimentation","question_orig":"我願意嘗試把不同風格融合成新的作品。","question_theme":"當消費者提出非傳統需求時，你是否會考慮嘗試新的材料或配方？","note":"測量實驗精神"}
+    ]
+  },
+  {
+    "chapter_id": "I",
+    "title": "外派採集：走訪產地",
+    "context": "你前往某地採集原料，親眼見到採收、蒸餾與乾燥的過程，這一切會改變你對香料的理解。",
+    "spice_options": [
+      {"code":"bergamot","label":"佛手柑","desc":"前調"},
+      {"code":"lemon","label":"檸檬","desc":"前調"},
+      {"code":"orange","label":"甜橙","desc":"前調"},
+      {"code":"jasmine","label":"茉莉","desc":"中調"},
+      {"code":"rose","label":"玫瑰","desc":"中調"},
+      {"code":"ylang","label":"依蘭","desc":"中調"},
+      {"code":"patchouli","label":"廣藿香","desc":"後調"},
+      {"code":"vetiver","label":"岩蘭草","desc":"後調"},
+      {"code":"cedar","label":"雪松","desc":"後調"},
+      {"code":"sandalwood","label":"檀香","desc":"後調"},
+      {"code":"oakmoss","label":"橡苔","desc":"森林感"},
+      {"code":"amber","label":"琥珀","desc":"基調"},
+      {"code":"myrrh","label":"沒藥","desc":"古老香"}
+    ],
+    "items": [
+      {"id":33,"trait":"Openness","keyed":"plus","facet":"curiosity","question_orig":"我喜歡閱讀或接觸不同領域的內容以豐富自己。","question_theme":"在產地，你是否會用心記錄當地的故事與作業方式，以擴展你的靈感來源？","note":"測量跨領域學習"},
+      {"id":34,"trait":"Conscientiousness","keyed":"plus","facet":"thoroughness","question_orig":"我會仔細檢查每個細節直到滿意為止。","question_theme":"在蒸餾過程中，你是否會細心監控溫度與時間以確保品質？","note":"測量徹底與專注"},
+      {"id":35,"trait":"Neuroticism","keyed":"plus","facet":"vulnerability","question_orig":"遇到壓力時我會感到難以應付。","question_theme":"當採集計劃因天候或物流受阻，你是否會感到不安與挫折？","note":"測量壓力反應"},
+      {"id":36,"trait":"Agreeableness","keyed":"plus","facet":"trust","question_orig":"我通常相信大多數人是善意的。","question_theme":"與當地採購者互動時，你是否相信他們會誠實提供原料資訊？","note":"測量信任傾向"}
+    ]
+  },
+  {
+    "chapter_id": "J",
+    "title": "品牌會議：決定行銷策略",
+    "context": "品牌團隊召開會議，要決定產品定位、敘事與市場切入路徑，你需提供專業意見並考量商業面向。",
+    "spice_options": [
+      {"code":"bergamot","label":"佛手柑","desc":"清新"},
+      {"code":"jasmine","label":"茉莉","desc":"花香"},
+      {"code":"rose","label":"玫瑰","desc":"經典"},
+      {"code":"vanilla","label":"香草","desc":"親和"},
+      {"code":"amber","label":"琥珀","desc":"沉穩"},
+      {"code":"musk","label":"麝香","desc":"圓潤"},
+      {"code":"patchouli","label":"廣藿香","desc":"深沈"},
+      {"code":"cedar","label":"雪松","desc":"木質"},
+      {"code":"sandalwood","label":"檀香","desc":"溫和"},
+      {"code":"cardamom","label":"小豆蔻","desc":"辛香"},
+      {"code":"ginger","label":"薑","desc":"辛暖"},
+      {"code":"clove","label":"丁香","desc":"熱感"},
+      {"code":"bergamot2","label":"特調佛手柑","desc":"複合前調"}
+    ],
+    "items": [
+      {"id":37,"trait":"Conscientiousness","keyed":"plus","facet":"organization","question_orig":"我會把事情排列優先並按部就班完成。","question_theme":"在制定上市時程時，你是否會依重要性排序每項任務並確保執行？","note":"測量組織能力"},
+      {"id":38,"trait":"Extraversion","keyed":"plus","facet":"assertiveness","question_orig":"我喜歡在群體中表達自己的想法。","question_theme":"在會議上，你是否會勇於表達你認為可行的行銷方向？","note":"測量表達與主導"},
+      {"id":39,"trait":"Openness","keyed":"plus","facet":"creative_thinking","question_orig":"我常從不同角度思考問題並提出新方案。","question_theme":"對於產品敘事，你是否會提出非傳統的品牌故事或視覺概念？","note":"測量創意思考"},
+      {"id":40,"trait":"Neuroticism","keyed":"plus","facet":"worry","question_orig":"我會擔心事情可能會失敗。","question_theme":"面對上市壓力時，你是否會反覆擔心是否達不到預期表現？","note":"測量擔憂程度"}
+    ]
+  },
+  {
+    "chapter_id": "K",
+    "title": "媒體反饋：評論與社群聲浪",
+    "context": "產品上線後，評論出現於各平台，從高度讚賞到批評一應俱全。你如何面對社群聲浪？",
+    "spice_options": [
+      {"code":"bergamot","label":"佛手柑"},
+      {"code":"lemon","label":"檸檬"},
+      {"code":"orange","label":"甜橙"},
+      {"code":"rose","label":"玫瑰"},
+      {"code":"jasmine","label":"茉莉"},
+      {"code":"vanilla","label":"香草"},
+      {"code":"amber","label":"琥珀"},
+      {"code":"musk","label":"麝香"},
+      {"code":"patchouli","label":"廣藿香"},
+      {"code":"cedar","label":"雪松"},
+      {"code":"sandalwood","label":"檀香"},
+      {"code":"ylang","label":"依蘭"},
+      {"code":"oakmoss","label":"橡苔"}
+    ],
+    "items": [
+      {"id":41,"trait":"Neuroticism","keyed":"plus","facet":"sensitivity","question_orig":"負面情緒會較長時間影響我的日常心情。","question_theme":"當社群出現大量負評，你是否會因此幾天心情低落難以恢復？","note":"測量情緒恢復力"},
+      {"id":42,"trait":"Agreeableness","keyed":"plus","facet":"helpfulness","question_orig":"當朋友遇到困擾時，我會主動提供幫助。","question_theme":"面對粉絲的合理抱怨，你是否會主動私訊溝通並提供補救或說明？","note":"測量親和性"},
+      {"id":43,"trait":"Conscientiousness","keyed":"plus","facet":"responsibility","question_orig":"我會為自己的產品與行為負責。","question_theme":"面對錯誤或瑕疵，你是否會主動承擔責任並提出改良方案？","note":"測量責任感"},
+      {"id":44,"trait":"Openness","keyed":"minus","facet":"conventionality","question_orig":"我偏好傳統做法，不太願嘗試新事物。","question_theme":"面對新的社群行銷手法，你是否較傾向保持傳統做法而非採用創新方式？","note":"反向題"}
+    ]
+  },
+  {
+    "chapter_id": "L",
+    "title": "結語：內省與下一季靈感",
+    "context": "活動告一段落，你坐在窗前回顧這一季的得失。下一季的靈感在腦海中醞釀，你決定如何開始新的創作週期？",
+    "spice_options": [
+      {"code":"vanilla","label":"香草"},
+      {"code":"amber","label":"琥珀"},
+      {"code":"bergamot","label":"佛手柑"},
+      {"code":"rose","label":"玫瑰"},
+      {"code":"jasmine","label":"茉莉"},
+      {"code":"cedar","label":"雪松"},
+      {"code":"sandalwood","label":"檀香"},
+      {"code":"patchouli","label":"廣藿香"},
+      {"code":"vetiver","label":"岩蘭草"},
+      {"code":"oakmoss","label":"橡苔"},
+      {"code":"ylang","label":"依蘭"},
+      {"code":"saffron","label":"藏紅花"},
+      {"code":"myrrh","label":"沒藥"}
+    ],
+    "items": [
+      {"id":45,"trait":"Conscientiousness","keyed":"minus","facet":"perfectionism","question_orig":"我常對自己要求過高，反而影響效率。","question_theme":"回顧一季工作，你是否覺得自己對細節過度苛求，以致於延誤進度？","note":"反向題"},
+      {"id":46,"trait":"Agreeableness","keyed":"plus","facet":"cooperation","question_orig":"我願意為團隊妥協以達共識。","question_theme":"為了團隊的長期發展，你是否會適度調整個人偏好並與他人協作？","note":"測量團隊合作"},
+      {"id":47,"trait":"Openness","keyed":"plus","facet":"imagination","question_orig":"我常幻想或想像各種可能的情境與未來。","question_theme":"你是否已經開始在腦海中構思新季主題，並以故事化的方式描繪新香？","note":"測量想像力"},
+      {"id":48,"trait":"Neuroticism","keyed":"plus","facet":"stress","question_orig":"在壓力下我會感到難以應付。","question_theme":"當承擔多重項目與期限時，你是否會覺得難以冷靜並感到壓力過大？","note":"測量壓力承受"}
+    ]
+  }
+]
