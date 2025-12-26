@@ -3,7 +3,3 @@ pandas
 matplotlib
 Pillow
 sqlalchemy
-BytesIO
-Image
-ImageDraw
-ImageFont
